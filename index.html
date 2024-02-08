@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Multiplication Game</title>
+    </head>
+    <body>
+        <div class="box">
+            <p id="score">Score: <span id="score-number">0</span></p>
+            <h2>What's <span id="1st-number">0</span> multiplied by <span id="2nd-number">0</span>?</h2>
+            <input type="text" placeholder="Enter your answer here." id="answer" oninput="">
+            <button id="submit" type="submit" onclick="multiplicationCheck()">Submit</button>
+        </div>
+        <script src="app.js"></script>
+    </body>

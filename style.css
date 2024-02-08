@@ -1,0 +1,32 @@
+.box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-style: solid;
+    border-color: black;
+    padding: 25px;
+}
+
+p {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#answer {
+    align-self: center;
+    border-style: solid;
+    border-color: black;
+}
+
+#submit {
+    background-color: green;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: aliceblue;
+    padding-left: 50px;
+    padding-right: 50px;
+}
